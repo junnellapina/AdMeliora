@@ -1,0 +1,322 @@
+body, html {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #FFF;
+  background: url('header_bg.jpg') center/cover no-repeat fixed; /* Apply background image to body and html */
+}
+
+
+
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #000;
+  background-color: #FFF;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: transparent; /* Transparent background */
+  height: 8vh;
+}
+
+.logo {
+  font-family: 'Inter', sans-serif; /* Change the font for the logo */
+  font-size: 32px;
+  color: #FFF;
+}
+
+nav {
+  background-color: transparent; /* Transparent background for the navigation bar */
+}
+
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px; /* Adjust the width of the logo image as needed */
+  height: auto; /* Maintain the aspect ratio */
+  margin-right: 10px; /* Adjust the margin between the logo and text */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav ul li {
+  padding: 10px;
+}
+
+nav ul li a {
+  font-size: 18px;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+nav ul li a:hover {
+  color: #ffd400; /* Yellow color on hover */
+}
+
+
+main section {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#home {
+  font-family: "Inter", sans-serif;
+  background: url('header_bg.jpg') center/cover no-repeat fixed; /* Apply background image */
+  color: #FFF;
+  padding: 20px; /* Adjust the padding to control the content within the section */
+  text-align: center;
+  height: 70vh; /* Adjust the height as needed */
+}
+
+#home p:last-child {
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  color: #FFF;
+  margin-top: 10px;
+}
+
+#introduction, #mission, #vision, #stream-outline, #conclusion {
+  background-color: #7E6AA8;
+}
+
+#promotional-plan {
+  background-color: #F5F5F5; /* Light gray background for the "promotional-plan" section */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+#promotional-plan img {
+  max-width: 50%;
+  margin: 0 20px;
+}
+
+#promotional-plan p {
+  font-size: 20px;
+  max-width: 50%;
+  text-align: left;
+  color: #000; /* Set text color to black */
+}
+
+h1 {
+  font-family: "Inter", sans-serif;
+  font-size: 60px;
+  color: #FFF;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+#stream-outline table {
+  border-collapse: collapse;
+  border: 2px solid #000; /* Set the border color and width for the entire table */
+  width: 80%;
+  margin: 0 auto;
+}
+
+#stream-outline table th, #stream-outline table td {
+  border: 1px solid #000; /* Set the border color and width for table cells */
+  padding: 12px;
+  text-align: center;
+}
+
+#stream-outline p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  max-width: 80%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+#introduction, #mission, #vision, #stream-outline, #conclusion {
+  background-color: #FFF; /* White background for odd sections */
+  color: #000; /* Black text color */
+}
+
+#introduction:nth-child(even), #mission:nth-child(even), #vision:nth-child(even), #stream-outline:nth-child(even), #conclusion:nth-child(even) {
+  background-color: #F5F5F5; /* Light gray background for even sections */
+  color: #000; /* Black text color */
+}
+
+#introduction {
+  background-color: #FFF; /* White background for the "mission" section */
+  color: #000; /* Black text color for the "mission" section */
+  height: 500px;
+}
+
+.introduction-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.introduction-image img {
+  width: 500px; /* Adjust the width of the image as needed */
+  height: auto; /* Maintain the aspect ratio */
+  margin-right: 150px; /* Adjust the margin between the image and text */
+}
+
+.introduction-text {
+  max-width: 600px; /* Adjust the maximum width of the text as needed */
+}
+
+#introduction h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+#introduction p {
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  text-align: left;
+  margin-top: 30;
+}
+  #mission {
+    background-color: #FFF; /* White background for the "mission" section */
+    color: #000; /* Black text color for the "mission" section */
+    height: 500px;
+  }
+  
+  .mission-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .mission-text {
+    max-width: 600px; /* Adjust the maximum width of the text as needed */
+  }
+  
+  .mission-image img {
+    width: 600px; /* Adjust the width of the image as needed */
+    height: auto; /* Maintain the aspect ratio */
+    margin-left: 80px; /* Adjust the margin between the text and image */
+  }
+  
+  #mission h2 {
+  font-family: "Inter", sans-serif;
+  font-size: 36px;
+  margin-bottom: 30px;
+  }
+  
+  #mission p {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    text-align: left;
+    margin-top: 30;
+  }
+  #vision {
+    background-color: #FFF; /* White background for the "vision" section */
+    color: #000; /* Black text color for the "vision" section */
+    height: 500px;
+  }
+  
+  .vision-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .vision-image img {
+    width: 350px; /* Adjust the width of the image as needed */
+    height: auto; /* Maintain the aspect ratio */
+    margin-right: 100px; /* Adjust the margin between the image and text */
+  }
+  
+  .vision-text {
+    max-width: 600px; /* Adjust the maximum width of the text as needed */
+  }
+  
+  #vision h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+  }
+  
+  #vision p {
+    font-size: 18px;
+    text-align: left;
+    margin-top: 30px;
+  }
+  
+  /* Your existing CSS */
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+.animated .introduction-image img,
+.animated .introduction-text,
+.animated .mission-image img,
+.animated .mission-text,
+.animated .vision-image img,
+.animated .vision-text,
+.animated #stream-outline,
+.animated #promotional-plan {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 2s ease-out, transform 2s ease-out; /* Adjust the transition duration for fade-in */
+}
+
+.animated.show .introduction-image img,
+.animated.show .introduction-text,
+.animated.show .mission-image img,
+.animated.show .mission-text,
+.animated.show .vision-image img,
+.animated.show .vision-text,
+.animated.show #stream-outline,
+.animated.show #promotional-plan {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.animated .text {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 4s ease-in-out, transform 4s ease-in-out; /* Adjust the transition duration for fade-out */
+}
+
+.animated.show .text {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 3s ease-in-out, transform 3s ease-in-out; /* Keep the transition duration for fade-out */
+}
+
+
+
+
